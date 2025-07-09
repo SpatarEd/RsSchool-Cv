@@ -1,0 +1,16 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+.information{
+    display: flex;
+    flex-direction: row;
+}
+.information img {
+  width: 20%;
+  height: auto;
+}
+.info{
+    width: 20%;
+  height: 100%;
+}
