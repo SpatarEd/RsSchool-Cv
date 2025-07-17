@@ -70,6 +70,10 @@ h4 {
     letter-spacing: 5%;
     border-radius: 10px;
     border: none;
+} 
+
+.button-large:hover {
+    cursor: pointer;
 }
 
 .button-small {
@@ -79,6 +83,10 @@ h4 {
     font-size: var(--small-font-size);
     font-family: var(--font-family-roboto);
     letter-spacing: 5%;
+}
+
+.button-small:hover{
+    cursor: pointer;
 }
 
 header {
@@ -167,8 +175,43 @@ header {
     left: 400px;
     bottom: 0px;
     transition: -50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: var(--bckg-color-black);
 }
 
+.slaider-counter{
+    font-family: var(--font-family-roboto);
+    font-weight: 400;
+    font-size: var(--small-font-size);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    margin: 40px 30px 40px 74px;
+}
+
+.welcome-to-the-louvre-sqare-slider {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sqares {
+    width: 16px;
+    height: 16px;
+    background-color: #FFFFFF;
+    margin: 25px;
+}
+
+.sqares:hover {
+    cursor: pointer;
+}
+
+.sqares:active {
+     background-color: var(--color-font-gold)
+}
 
 .virtual-tour-card-text {
     font-family: var(--font-family-roboto);
