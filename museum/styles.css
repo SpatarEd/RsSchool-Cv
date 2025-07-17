@@ -18,6 +18,9 @@
     --font-family-forum: "Forum";
 }
 
+section {
+    margin-bottom: 75px;
+}
 
 h1 {
     font-family: var(--font-family-forum);
@@ -204,6 +207,7 @@ header {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    background-color: var(--bckg-color-black);
 }
 
 .sqares {
@@ -267,6 +271,122 @@ header {
     grid-template-columns: 1fr 1fr 1fr;
     gap: 60px;
     margin-top: 100px;
+}
+
+.picture-explore {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    max-width: 1440px;
+}
+
+.picture-explore-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin-right: 60px;
+}
+
+.picture-explore-text h2 {
+    margin-bottom: 80px;
+}
+
+.picture-explore-test-paragraph {
+    font-family: var(--font-family-roboto);
+    font-size: var(--tiny-font-sixe);
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    font-weight: 300;
+}
+
+.video-journey{
+    
+    max-width: 1440px;
+}
+
+.video-journey-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.video-journey-text{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video-journey-text p{
+    font-family: var(--font-family-roboto);
+    font-weight: 300;
+    font-size: var(--small-font-size);
+    letter-spacing: 0;
+    vertical-align: middle;
+}
+
+.video-journey-main-video {
+  position: relative;
+  padding-bottom: 56.25%; 
+  height: 0;
+  overflow: hidden;
+  margin-bottom: 40px;
+}
+
+.video-journey-main-video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin-top: 75px;
+}
+
+.video-journey-sub-videos{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#middle-video{
+    margin: 0 42px;
+}
+
+.video-journey-slaider-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.video-journey-slaider {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    max-width: 200px;
+}
+
+.left-double-arrow {
+    fill: black;
+}
+
+.video-journey-slaider-points {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.video-journey-slaider-point {
+    width: 12px;
+    height: 12px;
+    background-color: #999999;
+    border-radius: 50%;
+    margin: 0 20px;
+}
+
+.video-journey-slaider-point:hover{
+    cursor: pointer;
+    background-color: var(--bckg-color-black);
 }
 
 
