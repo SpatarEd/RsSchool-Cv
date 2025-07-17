@@ -35,6 +35,13 @@ h1 {
     color: var(--link-hover-font-color);
     font-weight: 400;
 }
+.h2 {
+    font-family: var(--font-family-forum);
+    font-size: 80px;
+    letter-spacing: 5px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
 
 .h3 {
     font-family: var(--font-family-forum);
