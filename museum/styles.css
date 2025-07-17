@@ -179,6 +179,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     background-color: var(--bckg-color-black);
+    max-width: 610px;
 }
 
 .slaider-counter{
@@ -188,7 +189,7 @@ header {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #FFFFFF;
-    margin: 40px 30px 40px 74px;
+    margin: 45px 35px 40px 64px;
 }
 
 .welcome-to-the-louvre-sqare-slider {
@@ -211,6 +212,32 @@ header {
 
 .sqares:active {
      background-color: var(--color-font-gold)
+}
+
+.slaider-arrows {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 56px 42px 56px 35px;
+}
+
+.slaider-arrow {
+    margin-right: 20px;
+    fill: #FFFFFF;
+}
+.slaider-arrow:hover{
+    cursor: pointer;
+    fill: var(--link-hover-font-color);
+}
+
+.slaider-arrow-second{
+    rotate: 180deg;
+}
+
+.slaider-arrow-second:hover{
+    fill: var(--color-font-gold);
+    cursor: pointer;
 }
 
 .virtual-tour-card-text {
