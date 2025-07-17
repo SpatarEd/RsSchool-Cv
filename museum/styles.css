@@ -389,4 +389,58 @@ header {
     background-color: var(--bckg-color-black);
 }
 
+.art-gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 1440px;
+    object-fit: cover;
+}
+
+.art-gallery h2 {
+    font-family: var(--font-family-roboto);
+    font-size: 80px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    margin-top: 75px;
+}
+.art-gallery-images {
+    display: flex;
+    flex-direction: row;
+    margin-top: 75px;
+}
+.art-gallery-first-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+}
+
+.art-gallery-first-column img{
+    margin-bottom: 24px;
+    max-width: 456px;
+}
+
+.art-gallery-second-column {
+    display: flex;
+    flex-direction: column;
+    margin: 0 36px;
+}
+.art-gallery-second-column img{
+    margin-bottom: 24px;
+    max-width: 456px;
+}
+
+.art-gallery-third-column{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.art-gallery-third-column img{
+    margin-bottom: 24px;
+    max-width: 456px;
+}
+
+
 
